@@ -1,0 +1,28 @@
+table{
+    margin-left: 43%;
+    margin-right: 30%;
+    background-color: #3ea1cf;
+    border-radius: 10px;
+    border-width: 10px;
+    
+    
+}
+
+.body-year,  .body-income,.body-surcharge,.body-secndary{
+    padding: 10px;
+
+    background-image: linear-gradient(white, rgb(212, 209, 209));
+}
+
+.body-payer, .body-after_relief,.body-education,.body-total{
+    padding: 10px;
+    background-image: linear-gradient(white, whitesmoke);
+}
+
+#reset {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    
+}

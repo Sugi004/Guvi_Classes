@@ -5,8 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tax Calculator</title>
-</head>
-<body>
     
+    <link href="index.css" rel="stylesheet">
+    
+
+</head>
+<body style="background-color: whitesmoke;">
+    <table><tr>
+        <td><img src="calculator.png" style="width: 50px; height: 50px;"></td>
+        <td><h4 style="color: whitesmoke;">TAX CALCULATOR</h4></td> 
+    </tr></table><br>
+    
+    <form>
+    <div class="body-year">
+        <label style="padding-right: 65%; margin-left: 5%; font-size: larger;" >Assessment Year</label>  
+    
+        <select name="year" style="float: right; margin: 5px; margin-right: 53px; font-size: medium; padding-right: 7%;">
+            <option value="Select">Select</option>
+            <option value="2023-24">2023-24</option>
+            <option value="2022-23">2022-23</option>
+            <option value="2021-22">2021-22</option>
+            <option value="20220-21">2020-21</option>
+            <option value="2019-20">2019-20</option>
+            <option value="2018-19">2018-19</option>
+        </select>
+     
+    </div>
+
+    <div class="body-payer">
+        <label style="padding-right: 65.5%;margin-left: 5%; font-size: larger;" >Tax Payer</label>  
+    
+        <select name="year" style="float: right; margin: 5px; margin-right: 55px; font-size: medium;">
+            <option value="Select">Select</option>
+            <option value="Individual">Individual</option>
+            <option value="HUF">HUF</option>
+            <option value="AOPs/BOI">AOPs/BOI</option>
+            <option value="Domestic Company">Domestic Company</option>
+            <option value="Foreign Company">Foreign Company</option>
+            <option value="Firms">Firms</option>
+            <option value="LLP">LLP</option>
+            <option value="Co-operative Society">Co-operative Society</option>
+        </select>
+     
+    </div>
+
+    <div class="body-income">
+    
+            <label style="padding-right: 65%; margin-left: 5%; font-size: larger;" >Total Income</label>  
+            <input type="number" name="income" size="20" style="float: right; margin: 5px; margin-right: 55px; text-align: right;" >
+        
+    </div>
+
+
+    <div class="body-after_relief">
+    
+            <label style="padding-right: 50%; margin-left: 5%; font-size: larger;" >Income Tax after relief u/s 87A</label>  
+            <input type="number" name="income" size="20" style="float: right; margin: 5px; margin-right: 55px; text-align: right;" >
+        
+    </div>
+
+    <div class="body-surcharge">
+    
+            <label style="padding-right: 65%; margin-left: 5%; font-size: larger;" >Surcharge</label>  
+            <input type="number" name="income" size="20" style="float: right; margin: 5px; margin-right: 55px; text-align: right;" >
+        
+    </div>
+
+    <div class="body-education">
+        
+            <label style="padding-right: 65%; margin-left: 5%; font-size: larger;" >Education Cess</label>  
+            <input type="number" name="income" size="20" style="float: right; margin: 5px; margin-right: 55px; text-align: right;" >
+        
+    </div>
+
+    <div class="body-secndary">
+    
+            <label style="padding-right: 48%; margin-left: 5%; font-size: larger;" >Secondary and Higher Eucation Cess</label>  
+            <input type="number" name="income" size="20" style="float: right; margin: 5px; margin-right: 55px; text-align: right;" >
+        
+    </div>
+
+    <div class="body-total">
+            <label style="padding-right: 65%; margin-left: 5%; font-size: larger;" >Total Tax Liability</label>  
+            <input type="number" name="income" size="20" style="float: right; margin: 5px; margin-right: 55px; text-align: right;" >
+
+    </div><br>
+
+    <div>
+    
+            <label for="reset"></label>
+            <input type="reset" id="reset" value="Reset" name="reset" style="text-align: center; justify-content: center; ">
+        
+    </div>
+</form>
 </body>
 </html>
