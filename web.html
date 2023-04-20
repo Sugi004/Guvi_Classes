@@ -5,18 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tax Calculator</title>
-    
+ 
     <link href="index.css" rel="stylesheet">
     
 
 </head>
 <body style="background-color: whitesmoke;">
-    <table><tr>
-        <td><img src="calculator.png" style="width: 50px; height: 50px;"></td>
-        <td><h4 style="color: whitesmoke;">TAX CALCULATOR</h4></td> 
-    </tr></table><br>
+    <div style="display:inline-flex; padding: 10px 15px 10px 5px;  background-color: #3b9ac6; border-radius: 2%;">
+        <img src="calculator.png" style="width: 30px; height: 30px; float: left; padding: 15px 10px;" ><br>
+        <h4 style="margin-top: 1; color: white;">TAX CALCULATOR</h4>
+        
+        
+    </div>
+    <span style="float: right; padding: 35px 50px 0px;">Click here to view relevant <a href="https://incometaxindia.gov.in/Pages/acts/income-tax-act.aspx" target="_blank">Act</a> & 
+        <a href="https://incometaxindia.gov.in/Pages/rules/income-tax-rules-1962.aspx" target="_blank">Rule</a></span>
+    <br><br>
     
     <form>
+    <div>
     <div class="body-year">
         <label style="padding-right: 65%; margin-left: 5%; font-size: larger;" >Assessment Year</label>  
     
@@ -47,7 +53,7 @@
             <option value="Co-operative Society">Co-operative Society</option>
         </select>
      
-    </div>
+    </div class=total>
 
     <div class="body-income">
     
@@ -60,34 +66,34 @@
     <div class="body-after_relief">
     
             <label style="padding-right: 50%; margin-left: 5%; font-size: larger;" >Income Tax after relief u/s 87A</label>  
-            <input type="number" name="income" size="20" style="float: right; margin: 5px; margin-right: 55px; text-align: right;" >
+            <input type="number" name="income" size="20" style="float: right; margin: 5px; margin-right: 55px; text-align: right;background-color: rgb(226, 228, 231);" >
         
     </div>
 
     <div class="body-surcharge">
     
             <label style="padding-right: 65%; margin-left: 5%; font-size: larger;" >Surcharge</label>  
-            <input type="number" name="income" size="20" style="float: right; margin: 5px; margin-right: 55px; text-align: right;" >
+            <input type="number" name="income" size="20" style="float: right; margin: 5px; margin-right: 55px; text-align: right;background-color: rgb(226, 228, 231);" >
         
     </div>
 
     <div class="body-education">
         
             <label style="padding-right: 65%; margin-left: 5%; font-size: larger;" >Education Cess</label>  
-            <input type="number" name="income" size="20" style="float: right; margin: 5px; margin-right: 55px; text-align: right;" >
+            <input type="number" name="income" size="20" style="float: right; margin: 5px; margin-right: 55px; text-align: right;background-color: rgb(226, 228, 231);" >
         
     </div>
 
     <div class="body-secndary">
     
             <label style="padding-right: 48%; margin-left: 5%; font-size: larger;" >Secondary and Higher Eucation Cess</label>  
-            <input type="number" name="income" size="20" style="float: right; margin: 5px; margin-right: 55px; text-align: right;" >
+            <input type="number" name="income" size="20" style="float: right; margin: 5px; margin-right: 55px; text-align: right;background-color: rgb(226, 228, 231);" >
         
     </div>
 
     <div class="body-total">
             <label style="padding-right: 65%; margin-left: 5%; font-size: larger;" >Total Tax Liability</label>  
-            <input type="number" name="income" size="20" style="float: right; margin: 5px; margin-right: 55px; text-align: right;" >
+            <input type="number" name="income" size="20" style="float: right; margin: 5px; margin-right: 55px; text-align: right;background-color: rgb(226, 228, 231);" >
 
     </div><br>
 
@@ -97,6 +103,12 @@
             <input type="reset" id="reset" value="Reset" name="reset" style="text-align: center; justify-content: center; ">
         
     </div>
+</div>
 </form>
+
+
+
+
+
 </body>
 </html>
