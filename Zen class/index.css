@@ -1,5 +1,5 @@
 table{
-    margin-left: 43%;
+    margin-left: 44%;
     margin-right: 30%;
     background-color: #3ea1cf;
     border-radius: 10px;
@@ -7,6 +7,8 @@ table{
     
     
 }
+
+
 
 .body-year,  .body-income,.body-surcharge,.body-secndary{
     padding: 10px;
@@ -23,6 +25,6 @@ table{
     margin: 0;
     position: absolute;
     top: 70%;
-    left: 50%;
+    left: 49%;
     
 }
