@@ -49,7 +49,7 @@ body{
         width: 500px;
     }
     .name-wrapper{
-        padding: 10px 5px 10px 5px;
+        text-align: center !important;
         font-size: 45px;
         margin-top: 230px;
     }
@@ -65,12 +65,12 @@ body{
     }
 }
 
-@media screen and (max-width: 440px){ 
+@media screen and (max-width: 455px){ 
     html{
         width:  500px;
      }
     .header{
-        height:320px;
+        height:330px;
         width: 530px;
     }
     .small-header{
@@ -82,8 +82,8 @@ body{
 
     .name-wrapper{
         
-        padding: 5px 10px 5px 20px;
-        width: 90% !important;
+        text-align: center !important;
+        width: 100% !important;
         font-size: 40px;
         margin-top: 230px;
         font-weight: 500;
@@ -114,8 +114,7 @@ body{
         margin-top: 255px;
     }
     .name-wrapper{
-        word-wrap: break-word;
-        padding: 10px 10px 10px 30px;
+        text-align: center !important;
         width: 100% !important ; 
         font-size: 36px;
         margin-top: 230px;
@@ -127,29 +126,73 @@ body{
     }
 }
 
-@media only screen  and  (max-width: 330px){
+@media only screen  and  (max-width: 335px){
     
     html{
         width:  550px;
      }
     .name-wrapper{
-        display: inline;
-        padding: 10px 20px 10px 30px;
+       
         width: 110% !important ;
         font-size: 35px;
         margin-top: 230px;
         font-weight: 500;
+        text-align: center !important;
     }
     
     .small-header{
-        height: 20px;
+        height: 25px;
     }
 
     .header{
-        height: 310px
+        height: 315px
     }
     
 }
+ 
+@media only screen  and  (max-width: 307px){
+    
+    .name-wrapper{
+               
+        width: 120% !important ;
+        font-size: 35px;
+        margin-top: 225px;
+        font-weight: 500;
+        text-align: center !important;
+    }
+    
+}
+
+@media only screen  and  (max-width: 280px){
+    
+    .name-wrapper{
+       
+        width: 150% !important ;
+        font-size: 35px;
+        text-align: center !important;
+        font-weight: 500;
+    }
+    
+}
+ 
+@media only screen  and  (max-width: 218px){
+    
+    .name-wrapper{
+       
+        width: 150% !important ;
+        font-size: 30px;
+        text-align: center !important;
+        font-weight: 500;
+    }
+    .small-header{
+        height: 20px;
+        margin-top: 250px;
+    }
+    .header{
+        height: 300px;
+    }
+}
+ 
  
 .contact-wrapper{
     margin:auto;
@@ -159,6 +202,8 @@ body{
 .body-wrapper{
     display: flex;
 }
+
+
 
 .first-body{
     display:flex;
@@ -182,6 +227,8 @@ body{
 .first-body+.second-body{
     border-left: 1px #c0b9b9;
     border-left-style:ridge;
+
+    
 }
 
 
