@@ -151,9 +151,6 @@ body{
     
 }
  
- 
- 
- 
 .contact-wrapper{
     margin:auto;
     text-align: center;
@@ -162,8 +159,6 @@ body{
 .body-wrapper{
     display: flex;
 }
-
-
 
 .first-body{
     display:flex;
@@ -187,8 +182,6 @@ body{
 .first-body+.second-body{
     border-left: 1px #c0b9b9;
     border-left-style:ridge;
-
-    
 }
 
 
