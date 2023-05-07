@@ -127,14 +127,14 @@ body{
     }
 }
 
-@media only screen  and  (max-width: 330px){
+@media only screen  and  (max-width: 335px){
     
     html{
         width:  550px;
      }
     .name-wrapper{
         display: inline;
-        padding: 10px 20px 10px 30px;
+        padding: 5px 20px 5px 30px;
         width: 110% !important ;
         font-size: 35px;
         margin-top: 230px;
@@ -151,6 +151,31 @@ body{
     
 }
  
+@media only screen  and  (max-width: 307px){
+    
+    .name-wrapper{
+        display: inline;
+        padding: 5px 20px 5px 26px;
+        width: 120% !important ;
+        font-size: 35px;
+        margin-top: 230px;
+        font-weight: 500;
+    }
+    
+}
+
+@media only screen  and  (max-width: 280px){
+    
+    .name-wrapper{
+       
+        padding: 5px 20px 5px 30px;
+        width: 150% !important ;
+        font-size: 38px;
+        
+        font-weight: 500;
+    }
+    
+}
  
  
  
